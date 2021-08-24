@@ -1,0 +1,2726 @@
+{
+	"bot_cmd_SetBotWarningColour": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set warn colour {hex code}",
+		"topic": "bot"
+	},
+	"shop_cmd_FixShop": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}fix shop",
+		"topic": "shop"
+	},
+	"resets_cmd_ListResetZones": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}reset zones",
+		"topic": "resets"
+	},
+	"teleports_cmd_TogglePlayerTeleporting": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable teleporting",
+		"topic": "teleports"
+	},
+	"hotspots_cmd_ResizeHotspot": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}resize hotspot {hotspot number from list} size {size}",
+		"topic": "hotspots"
+	},
+	"hotspots_cmd_DeleteHotspot": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}delete hotspot {hotspot number from list}",
+		"topic": "hotspots"
+	},
+	"shop_cmd_ResetShop": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}reset shop",
+		"topic": "shop"
+	},
+	"admin_cmd_SendPlayerHome": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}sendhome {player name}\n {#}sendhome2 {player name}",
+		"topic": "admin"
+	},
+	"botman_cmd_SetMaxClans": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set max clans {number of clans}",
+		"topic": "botman"
+	},
+	"server_cmd_SetPVPTempBanCooldown": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set pvp temp ban {minutes}",
+		"topic": "server"
+	},
+	"admin_cmd_ListClaims": {
+		"accessLevel": 5,
+		"ingameOnly": true,
+		"command": " {#}claims {range} (range is optional and defaults to 50)",
+		"topic": "admin"
+	},
+	"locations_cmd_Lobby": {
+		"accessLevel": 5,
+		"ingameOnly": false,
+		"command": " {#}lobby {player name}",
+		"topic": "locations"
+	},
+	"misc_cmd_InvitePlayerToIRC": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}irc invite {player}",
+		"topic": "misc"
+	},
+	"admin_cmd_VisitPlayerBase": {
+		"accessLevel": 3,
+		"ingameOnly": true,
+		"command": " {#}playerbase/playerhome {player name}\n {#}playerbase/playerhome {player name} base {number or name}",
+		"topic": "admin"
+	},
+	"bot_cmd_ReloadBot": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}reload bot",
+		"topic": "bot"
+	},
+	"locations_cmd_ListCategories": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}location categories",
+		"topic": "locations"
+	},
+	"base_cmd_Base": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}home/base {number or name}\n",
+		"topic": "base"
+	},
+	"fun_cmd_PlayGimmeHell": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}gimmezombies or {#}gimmehell or {#}gimmeinsane or {#}gimmedeath",
+		"topic": "fun"
+	},
+	"fun_cmd_SetGimmeResetTimer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}gimme reset time {number} (In minutes. Default is 120)",
+		"topic": "fun"
+	},
+	"shop_cmd_SetMoneyName": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set money name {singular} {plural}",
+		"topic": "shop"
+	},
+	"misc_cmd_MarkOutArea": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}mark {name} start/end or p1/p2",
+		"topic": "misc"
+	},
+	"admin_cmd_AddRemoveWhitelistCountry": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}add whitelist country {US}\n {#}remove whitelist country {US}",
+		"topic": "admin"
+	},
+	"bot_cmd_ResetBases": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}reset bases",
+		"topic": "bot"
+	},
+	"server_cmd_SetClearViewMOTD": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}motd (to view it)\n {#}motd (or {#}set motd) {your message here} (to set it)\n {#}motd clear (to disable it)",
+		"topic": "server"
+	},
+	"admin_cmd_EquipAdmin": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}equip admin",
+		"topic": "admin"
+	},
+	"admin_cmd_AddRemoveRestrictedItem": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}add restricted item {item name} qty {count} action {action} access {level}\n {#}remove restricted item {item name}",
+		"topic": "admin"
+	},
+	"admin_cmd_GiveBackClaims": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}give claim/key/lcb",
+		"topic": "admin"
+	},
+	"admin_cmd_SetFeralRebootDelay": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}feral reboot delay {minutes}",
+		"topic": "admin"
+	},
+	"base_cmd_ListBases": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}list bases\n {#}list bases {player name} (admins only)",
+		"topic": "base"
+	},
+	"fun_cmd_RageQuit": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}quit\n {#}ragequit",
+		"topic": "fun"
+	},
+	"base_cmd_SetClearBed": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}setbed/clearbed",
+		"topic": "base"
+	},
+	"admin_cmd_AddRemoveBlacklistCountry": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}add/remove blacklist country {US}",
+		"topic": "admin"
+	},
+	"bot_cmd_RejoinIRC": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}rejoin irc",
+		"topic": "bot"
+	},
+	"botman_cmd_ToggleResetRegionsClaims": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}reset regions remove/leave claims (default is leave claims)",
+		"topic": "botman"
+	},
+	"teleports_cmd_AdminTeleport": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}tp {player name}\n {#}tp {name of teleport}\n {#}tp {X coord} {Y coord} {Z coord}\n {#}tp region {region X} {region Z} (tp's you to the centre of the region)\n {#}tp #1 (tele to the coords of a line in a numbered list eg. from {#}list saves)\n {#}north/south/east/west {distance}",
+		"topic": "teleports"
+	},
+	"locations_cmd_ToggleLocationAllowBase": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}location allow base {location name}\n {#}location disallow/deny/block base {location name}",
+		"topic": "locations"
+	},
+	"misc_cmd_AcceptIRCInvite": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}accept",
+		"topic": "misc"
+	},
+	"server_cmd_ToggleDespawnZombiesBeforeBloodMoon": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}remove zombies before bloodmoon\n {#}leave zombies before bloodmoon\n",
+		"topic": "server"
+	},
+	"info_cmd_ShowServerStats": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}server stats",
+		"topic": "info"
+	},
+	"teleports_cmd_ToggleFetch": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable fetch",
+		"topic": "teleports"
+	},
+	"bot_cmd_SetBotRestartDay": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set bot restart {0+} (total bot days running)",
+		"topic": "bot"
+	},
+	"locations_cmd_LocationRandom": {
+		"accessLevel": 3,
+		"ingameOnly": true,
+		"command": " {#}location {name} random",
+		"topic": "locations"
+	},
+	"botman_cmd_ToggleShowHideCommands": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}show/hide commands",
+		"topic": "botman"
+	},
+	"server_cmd_SetServerRebootHour": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set reboot hour {0 to 23}",
+		"topic": "server"
+	},
+	"server_cmd_RunConsoleCommand": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}run command {a console command}",
+		"topic": "server"
+	},
+	"botman_cmd_SpawnHorde": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}spawn horde {optional player or location name} {number of zombies}",
+		"topic": "botman"
+	},
+	"server_cmd_SetMaxPlayers": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set max players {number}",
+		"topic": "server"
+	},
+	"fun_cmd_Suicide": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}suicide",
+		"topic": "fun"
+	},
+	"server_cmd_PauseReboot": {
+		"accessLevel": 6,
+		"ingameOnly": false,
+		"command": " {#}pause reboot",
+		"topic": "server"
+	},
+	"admin_cmd_GotoPlayer": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}goto {player or steam or game ID}",
+		"topic": "admin"
+	},
+	"teleports_cmd_FetchPlayer": {
+		"accessLevel": 90,
+		"ingameOnly": true,
+		"command": " {#}fetch {player name}",
+		"topic": "teleports"
+	},
+	"admin_cmd_SetCommandCooldown": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set command cooldown {seconds} (default 0)",
+		"topic": "admin"
+	},
+	"admin_cmd_AddRemoveBadItem": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}add/remove bad item {item} action {timeout or ban} (default action is timeout)",
+		"topic": "admin"
+	},
+	"admin_cmd_CurePlayer": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}cure {player name}",
+		"topic": "admin"
+	},
+	"friends_cmd_FriendMe": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}friendme {player}",
+		"topic": "friends"
+	},
+	"misc_cmd_ListBookmarks": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}list bookmarks {player}",
+		"topic": "misc"
+	},
+	"botman_cmd_ListItems": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}list (or {#}li) {partial name of an item or block}",
+		"topic": "botman"
+	},
+	"info_cmd_Uptime": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}uptime",
+		"topic": "info"
+	},
+	"bot_cmd_ToggleHackerTPDetection": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable hacker tp detection",
+		"topic": "bot"
+	},
+	"bot_cmd_RefreshCode": {
+		"accessLevel": 5,
+		"ingameOnly": false,
+		"command": " {#}refresh code",
+		"topic": "bot"
+	},
+	"locations_cmd_LocationEndsHere": {
+		"accessLevel": 3,
+		"ingameOnly": true,
+		"command": " {#}location {name} ends here",
+		"topic": "locations"
+	},
+	"admin_cmd_ReloadAdmins": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}reload admins",
+		"topic": "admin"
+	},
+	"teleports_cmd_SetTeleportPlayerAccessLevelRestriction": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}tele {name} access min {minimum access level} max {maximum access level}\n {#}tele {name} access min {minimum access level}\n {#}tele {name} access max {maximum access level}",
+		"topic": "teleports"
+	},
+	"locations_cmd_SetLocationPlayerLevelRestriction": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}location {name} min level {minimum player level}\n {#}location {name} max level {maximum player level}\n {#}location {name} min level {minimum player level} max level {maximum player level}",
+		"topic": "locations"
+	},
+	"bot_cmd_ResetServer": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}reset server",
+		"topic": "bot"
+	},
+	"villages_cmd_ProtectVillage": {
+		"accessLevel": 2,
+		"ingameOnly": true,
+		"command": " {#}protect village {village name}",
+		"topic": "villages"
+	},
+	"base_cmd_NameBase": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}name base {number} {name}",
+		"topic": "base"
+	},
+	"server_cmd_ToggleIRCPrivate": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set irc private/public",
+		"topic": "server"
+	},
+	"admin_cmd_ReturnPlayer": {
+		"accessLevel": 90,
+		"ingameOnly": false,
+		"command": " {#}return {player name}\n {#}return {player name} to {location or other player}",
+		"topic": "admin"
+	},
+	"villages_cmd_ElectMayor": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}elect {player name} village {village}",
+		"topic": "villages"
+	},
+	"fun_cmd_ToggleDogeMode": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}doge mode or {#}doge on/off",
+		"topic": "fun"
+	},
+	"server_cmd_SetBailCost": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set bail {number}",
+		"topic": "server"
+	},
+	"admin_cmd_ArchivePlayers": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}archive players",
+		"topic": "admin"
+	},
+	"locations_cmd_ProtectLocation": {
+		"accessLevel": 3,
+		"ingameOnly": true,
+		"command": " {#}protect location",
+		"topic": "locations"
+	},
+	"bot_cmd_ToggleUseAllocsWebAPI": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}use telnet (this is the default now but the API is planned to become the new default soon)\n {#}use api",
+		"topic": "bot"
+	},
+	"hotspots_cmd_MoveHotspot": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}move hotspot {hotspot number from list}",
+		"topic": "hotspots"
+	},
+	"locations_cmd_AddLocation": {
+		"accessLevel": 3,
+		"ingameOnly": true,
+		"command": " {#}location add {name}",
+		"topic": "locations"
+	},
+	"bot_cmd_ToggleLogInventory": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable inventory log. (disabled by default)",
+		"topic": "bot"
+	},
+	"info_cmd_WhenDay7": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}day7 or {#}when feral or {#}bloodmoon",
+		"topic": "info"
+	},
+	"admin_cmd_ResetPlayerTimers": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}resettimers {player name}",
+		"topic": "admin"
+	},
+	"info_cmd_SendAlertToAdmins": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}alert {message}",
+		"topic": "info"
+	},
+	"server_cmd_ToggleRapidRelogTempBan": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}allow/disallow rapid relog",
+		"topic": "server"
+	},
+	"info_cmd_ListNewPlayers": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}new players {optional number (days)",
+		"topic": "info"
+	},
+	"admin_cmd_MovePlayer": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}move {player name} to {location}",
+		"topic": "admin"
+	},
+	"server_cmd_CancelReboot": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}cancel reboot",
+		"topic": "server"
+	},
+	"admin_cmd_ToggleReservedSlotPlayer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}reserve/unreserve slot {player name}",
+		"topic": "admin"
+	},
+	"admin_cmd_SetFeralHordeNight": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set feral horde night {day number} (default is 7)",
+		"topic": "admin"
+	},
+	"locations_cmd_LocationClearReset": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}location clear reset {location name}",
+		"topic": "locations"
+	},
+	"shop_cmd_ToggleBank": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable bank",
+		"topic": "shop"
+	},
+	"fun_cmd_ResetGimmeHell": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}reset arena",
+		"topic": "fun"
+	},
+	"groups_cmd_CopyGroup": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}copy group {number or name} to {new group name}",
+		"topic": "groups"
+	},
+	"admin_cmd_WhitelistEveryone": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}whitelist everyone/all",
+		"topic": "admin"
+	},
+	"admin_cmd_WhitelistAddRemovePlayer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}whitelist add/remove {player name}",
+		"topic": "admin"
+	},
+	"server_cmd_SetArchivePlayersThreshold": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set archive players day {number (days) default is 60}",
+		"topic": "server"
+	},
+	"server_cmd_ToggleRegionPM": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable region pm",
+		"topic": "server"
+	},
+	"server_cmd_SetIdleKickTimer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set idle kick {seconds} (default 900. 15 minutes)",
+		"topic": "server"
+	},
+	"admin_cmd_TestAsPlayer": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}test as player {optional number in seconds}",
+		"topic": "admin"
+	},
+	"info_cmd_WhenNextReboot": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}next reboot",
+		"topic": "info"
+	},
+	"misc_cmd_Yes": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}yes",
+		"topic": "misc"
+	},
+	"admin_cmd_MendPlayer": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}mend {player name}",
+		"topic": "admin"
+	},
+	"server_cmd_SetPingKickTarget": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set ping kick target {new or all}",
+		"topic": "server"
+	},
+	"server_cmd_SetServerRebootMinute": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set reboot minute {0 to 59}",
+		"topic": "server"
+	},
+	"base_cmd_SetBase": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}sethome {optional number or name}\n {#}setbase {optional number or name}",
+		"topic": "base"
+	},
+	"locations_cmd_ToggleLocationHidden": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}location hide/unhide {name}",
+		"topic": "locations"
+	},
+	"server_cmd_ToggleNoClipScan": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable noclip scan (the default)",
+		"topic": "server"
+	},
+	"misc_cmd_AddCustomCommand": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}add command {command} message {custom message}",
+		"topic": "misc"
+	},
+	"admin_cmd_ResetStackSizes": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}reset stack",
+		"topic": "admin"
+	},
+	"server_cmd_ToggleServerReboots": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable (or disable) reboot",
+		"topic": "server"
+	},
+	"shop_cmd_SetPlaytimeReward": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set playtime reward {WUHANCOINs}",
+		"topic": "shop"
+	},
+	"teleports_cmd_VisitPlayer": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}visit {player name} {#}goto {player name}",
+		"topic": "teleports"
+	},
+	"server_cmd_SetNewPlayerMaxLevel": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set new player max level {number} (game level)",
+		"topic": "server"
+	},
+	"botman_cmd_EraseArea": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}erase {optional number} (default 5)\n {#}erase block {block name} replace {with other block name} {optional number}\neg. {#}erase block stone replace air 20\n",
+		"topic": "botman"
+	},
+	"tracker_cmd_VisitNextBase": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}nb",
+		"topic": "tracker"
+	},
+	"teleports_cmd_DeleteTeleport": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}tele {name} delete",
+		"topic": "teleports"
+	},
+	"admin_cmd_ListBadWords": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}bad words",
+		"topic": "admin"
+	},
+	"server_cmd_VisitMap": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}visit map\n {#}visit map x1 z1 x2 z2\n {#}visit map range {distance}\n {#}visit map stop",
+		"topic": "server"
+	},
+	"teleports_cmd_ToggleIndividualPlayerTeleporting": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}enabletp {player name}\n {#}disabletp {player name}",
+		"topic": "teleports"
+	},
+	"shop_cmd_Gamble": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}gamble {optional quantity} or {#}buy ticket {optional quantity}",
+		"topic": "shop"
+	},
+	"locations_cmd_ToggleLocationWaypoints": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}location {name} enable (or disable) waypoints",
+		"topic": "locations"
+	},
+	"teleports_cmd_ViewTeleport": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}view teleport {named teleport}",
+		"topic": "teleports"
+	},
+	"bot_cmd_SetBotName": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}name bot {some cool name}",
+		"topic": "bot"
+	},
+	"friends_cmd_Unfriend": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}unfriend {player}",
+		"topic": "friends"
+	},
+	"info_cmd_ViewPlayerInfo": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}info {player}",
+		"topic": "info"
+	},
+	"fun_cmd_ViewPlayerBounty": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}bounty {optional player name}\n {#}view bounty {optional player name}\n {#}view bounties",
+		"topic": "fun"
+	},
+	"teleports_cmd_CreateTeleportStart": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}tele {name} start",
+		"topic": "teleports"
+	},
+	"friends_cmd_ForgetFriends": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}clear friends {player} (only admins can specify a player)",
+		"topic": "friends"
+	},
+	"base_cmd_UnpauseBaseProtection": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}resume/unpause (resume nearest base)\n {#}esume/unpause {number or name of base} (resume a specific base)",
+		"topic": "base"
+	},
+	"hotspots_cmd_ListHotspots": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}hotspots {player name}",
+		"topic": "hotspots"
+	},
+	"admin_cmd_UploadHelp": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}upload help {url where commands.json file can be downloaded by the bot}",
+		"topic": "admin"
+	},
+	"teleports_cmd_StuckTeleport": {
+		"accessLevel": 90,
+		"ingameOnly": true,
+		"command": " {#}stuck",
+		"topic": "teleports"
+	},
+	"villages_cmd_List": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}villages\n {#}villagers",
+		"topic": "villages"
+	},
+	"fun_cmd_Beer": {
+		"accessLevel": 0,
+		"ingameOnly": true,
+		"command": " {#}beer",
+		"topic": "fun"
+	},
+	"fun_cmd_PlayGimme": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}gimme",
+		"topic": "fun"
+	},
+	"bot_cmd_RestartBot": {
+		"accessLevel": 6,
+		"ingameOnly": false,
+		"command": " {#}restart bot",
+		"topic": "bot"
+	},
+	"admin_cmd_ListRestrictedItems": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}restricted items",
+		"topic": "admin"
+	},
+	"locations_cmd_UnprotectLocation": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}unprotect location {optional name}",
+		"topic": "locations"
+	},
+	"villages_cmd_RemoveVillage": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}remove village {village}",
+		"topic": "villages"
+	},
+	"groups_cmd_SetGroupSetting": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}group {number or name} set {setting number from list} value {a value}",
+		"topic": "groups"
+	},
+	"base_cmd_UnprotectBase": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}unprotectbase player {player name} base {number or name} (admins only - unprotect a specific player's base)",
+		"topic": "base"
+	},
+	"admin_cmd_ListWhitelist": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}list whitelist",
+		"topic": "admin"
+	},
+	"fun_cmd_QuitWithMessage": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}quit {message}",
+		"topic": "fun"
+	},
+	"botman_cmd_ToggleMutePlayer": {
+		"accessLevel": 5,
+		"ingameOnly": false,
+		"command": " {#}mute/unmute {player name}",
+		"topic": "botman"
+	},
+	"server_cmd_ToggleIdleKick": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable idle kick (disabled is default)",
+		"topic": "server"
+	},
+	"admin_cmd_ExilePlayer": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}exile {player name}",
+		"topic": "admin"
+	},
+	"admin_cmd_UnlockAll": {
+		"accessLevel": 0,
+		"ingameOnly": true,
+		"command": " {#}unlockall",
+		"topic": "admin"
+	},
+	"groups_cmd_ListGroups": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}list groups",
+		"topic": "groups"
+	},
+	"admin_cmd_SetViewArrestReason": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}prisoner {player name} arrested {reason for arrest}\n {#}prisoner {player name} (read the reason if one is recorded)",
+		"topic": "admin"
+	},
+	"tracker_cmd_Jump": {
+		"accessLevel": 2,
+		"ingameOnly": true,
+		"command": " {#}jump {number of steps}",
+		"topic": "tracker"
+	},
+	"server_cmd_SetAccessOverride": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}override access {number from 99 to 4}",
+		"topic": "server"
+	},
+	"botman_cmd_ListSaves": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}list saves {optional player name}",
+		"topic": "botman"
+	},
+	"hotspots_cmd_SetHotspotAction": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}hotspot {hotspot number from list} action {action from list: pm, tele, drop, spawn}",
+		"topic": "hotspots"
+	},
+	"server_cmd_ToggleEntityScan": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable entity scan (disabled by default)",
+		"topic": "server"
+	},
+	"botman_cmd_Undo": {
+		"accessLevel": 2,
+		"ingameOnly": true,
+		"command": " {#}undo",
+		"topic": "botman"
+	},
+	"bot_cmd_ForgetPlayers": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}forget players",
+		"topic": "bot"
+	},
+	"misc_cmd_GetRegionName": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}get region {x coordinate} {z coordinate}",
+		"topic": "misc"
+	},
+	"server_cmd_ToggleWelcomeMessages": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable welcome messages",
+		"topic": "server"
+	},
+	"groups_cmd_AddRemoveGroup": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}add group {group name}\n {#}remove group {group name}",
+		"topic": "groups"
+	},
+	"waypoints_cmd_ToggleWaypoints": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable waypoints",
+		"topic": "waypoints"
+	},
+	"misc_cmd_Bk": {
+		"accessLevel": 2,
+		"ingameOnly": true,
+		"command": " {#}bk {bookmark number}",
+		"topic": "misc"
+	},
+	"botman_cmd_SetChatColours": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}set new player/player/donor/prisoner/mod/admin/owner chat colour FFFFFF\n {#}reset chat colour",
+		"topic": "botman"
+	},
+	"server_cmd_SetMaxUptime": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}set max uptime {number}\n {#}max uptime (to review it)",
+		"topic": "server"
+	},
+	"server_cmd_SetMaxZombies": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set max zombies {number}",
+		"topic": "server"
+	},
+	"bot_cmd_ToggleBotRestart": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable bot restart",
+		"topic": "bot"
+	},
+	"base_cmd_PauseBaseProtection": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}pause (pause your nearest base)\n {#}pause {number or name of base} (pause a specific base)",
+		"topic": "base"
+	},
+	"server_cmd_ToggleTranslate": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}translate on/off {player name}",
+		"topic": "server"
+	},
+	"admin_cmd_ShitPlayer": {
+		"accessLevel": 5,
+		"ingameOnly": false,
+		"command": " {#}shit {player name}",
+		"topic": "admin"
+	},
+	"server_cmd_ToggleTelnetDisabled": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set telnet enabled/disabled (enabled is the default)",
+		"topic": "server"
+	},
+	"teleports_cmd_ToggleTeleportPublic": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}tele {teleport name} private\n {#}tele {teleport name} public",
+		"topic": "teleports"
+	},
+	"teleports_cmd_ToggleTeleportOneWay": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}tele {name} one way\n {#}tele {name} two way",
+		"topic": "teleports"
+	},
+	"server_cmd_ToggleBadNames": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}allow/disallow/kick bad names",
+		"topic": "server"
+	},
+	"admin_cmd_ToggleTeleportPlayer": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}allow/disallow teleport {player name}",
+		"topic": "admin"
+	},
+	"locations_cmd_ToggleLocationPVP": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}location {name} pvp\n {#}location {name} pve",
+		"topic": "locations"
+	},
+	"teleports_cmd_ToggleTeleportEnabled": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}tele {name} enable\n {#}tele {name} disable",
+		"topic": "teleports"
+	},
+	"teleports_cmd_ToggleStuckTeleport": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable stuck",
+		"topic": "teleports"
+	},
+	"info_cmd_ShowWherePlayer": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}where",
+		"topic": "info"
+	},
+	"shop_cmd_ToggleSpendingAlert": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable spending alert (default disabled)",
+		"topic": "shop"
+	},
+	"bot_cmd_ShutdownBot": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}shutdown bot",
+		"topic": "bot"
+	},
+	"tracker_cmd_SkipSteps": {
+		"accessLevel": 2,
+		"ingameOnly": true,
+		"command": " {#}skip {number of steps}",
+		"topic": "tracker"
+	},
+	"shop_cmd_ToggleShowCash": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}show/hide cash",
+		"topic": "shop"
+	},
+	"shop_cmd_ToggleShop": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}open/close or {#}enable/disable shop",
+		"topic": "shop"
+	},
+	"locations_cmd_RemoveLocation": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}location remove {name}",
+		"topic": "locations"
+	},
+	"admin_cmd_HordeMe": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}hordeme",
+		"topic": "admin"
+	},
+	"admin_cmd_ToggleBounties": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable bounty",
+		"topic": "admin"
+	},
+	"admin_cmd_ToggleScreamerAlert": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable screamer alert",
+		"topic": "admin"
+	},
+	"server_cmd_SetWelcomeMessage": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}set welcome message {your message here}\n {#}clear welcome message",
+		"topic": "server"
+	},
+	"teleports_cmd_SetPackCooldownTimer": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set pack cooldown {number in seconds}",
+		"topic": "teleports"
+	},
+	"info_cmd_WhoVisitedMe": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}who visited player {player name} days {days} hours {hrs} range {dist} height {ht}",
+		"topic": "info"
+	},
+	"server_cmd_UnpauseReboot": {
+		"accessLevel": 6,
+		"ingameOnly": false,
+		"command": " {#}resume/unpause reboot",
+		"topic": "server"
+	},
+	"botman_cmd_ToggleResetRegionsPrefabs": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable reset prefabs",
+		"topic": "botman"
+	},
+	"teleports_cmd_SetTeleportCost": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set teleport cost {number}",
+		"topic": "teleports"
+	},
+	"groups_cmd_ListGroup": {
+		"accessLevel": 6,
+		"ingameOnly": false,
+		"command": " {#}list group {number or name}",
+		"topic": "groups"
+	},
+	"botman_cmd_ToggleResetRegions": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable reset regions",
+		"topic": "botman"
+	},
+	"base_cmd_SetMaxBases": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set max bases {number}",
+		"topic": "base"
+	},
+	"admin_cmd_ToggleIRCNickUsedBySayCommand": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set say uses name (the default)\n {#}set say uses nick",
+		"topic": "admin"
+	},
+	"server_cmd_SetOverstackLimit": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set overstack {number} (default 1000)",
+		"topic": "server"
+	},
+	"teleports_cmd_ToggleReturnCommand": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable return (enabled is default)",
+		"topic": "teleports"
+	},
+	"admin_cmd_ToggleRemoveExpiredClaims": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}remove/leave expired claims",
+		"topic": "admin"
+	},
+	"teleports_cmd_SetTeleportEndSize": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}tele {name} end size {radius in blocks}",
+		"topic": "teleports"
+	},
+	"resets_cmd_DeleteResetZones": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}clear reset zones",
+		"topic": "resets"
+	},
+	"bot_cmd_ToggleReadLogUsingTelnet": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}read log using telnet (default)\n {#}read log using api",
+		"topic": "bot"
+	},
+	"bot_cmd_UpdateCode": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}update code",
+		"topic": "bot"
+	},
+	"villages_cmd_SetVillageSize": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}village {village} size {metres}",
+		"topic": "villages"
+	},
+	"bot_cmd_SetMasterPassword": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set master password {secret password up to 50 characters}",
+		"topic": "bot"
+	},
+	"friends_cmd_FriendPlayerToPlayer": {
+		"accessLevel": 3,
+		"ingameOnly": true,
+		"command": " {#}player {player} friend {other player}\neg. {#}player joe friend mary",
+		"topic": "friends"
+	},
+	"admin_cmd_NearPlayer": {
+		"accessLevel": 2,
+		"ingameOnly": true,
+		"command": " {#}near {player name} {optional number (distance away from player)}",
+		"topic": "admin"
+	},
+	"admin_cmd_TogglePack": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable pack/revive",
+		"topic": "admin"
+	},
+	"server_cmd_Say": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}say{2 letter language code} {something you want translated}",
+		"topic": "server"
+	},
+	"server_cmd_SetRules": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set rules {new rules}",
+		"topic": "server"
+	},
+	"admin_cmd_LoadBotmanINI": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}load botman ini",
+		"topic": "admin"
+	},
+	"base_cmd_ToggleBaseProtection": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable base protection",
+		"topic": "base"
+	},
+	"server_cmd_ToggleOverstackChecking": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}allow/disallow overstack or {#}enable/disable overstack",
+		"topic": "server"
+	},
+	"locations_cmd_SetLocationDayClosed": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}location {name} day closed {number}",
+		"topic": "locations"
+	},
+	"shop_cmd_ToggleLottery": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}open/close lottery\n {#}enable/disable lottery",
+		"topic": "shop"
+	},
+	"bot_cmd_ToggleLogBotCommands": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable bot command log (disabled by default)",
+		"topic": "bot"
+	},
+	"server_cmd_SetupAllocsWebMap": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}setup map",
+		"topic": "server"
+	},
+	"admin_cmd_VisitCrimescene": {
+		"accessLevel": 2,
+		"ingameOnly": true,
+		"command": " {#}crimescene {prisoner}",
+		"topic": "admin"
+	},
+	"locations_cmd_ToggleLocationPack": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}location pack enable/disable {name} (default is enabled)",
+		"topic": "locations"
+	},
+	"locations_cmd_ToggleLocationSafe": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}location safe/unsafe {location name}",
+		"topic": "locations"
+	},
+	"locations_cmd_ToggleLocationReturns": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}location {name} enable (or disable) returns",
+		"topic": "locations"
+	},
+	"locations_cmd_ToggleLocationPrivate": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}location private/public {name} (default is private)",
+		"topic": "locations"
+	},
+	"server_cmd_ToggleIgnorePlayerFlying": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}allow/disallow flying",
+		"topic": "server"
+	},
+	"locations_cmd_ToggleLocationWatchPlayers": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}location {name} watch\n {#}location {name} stop watching\n",
+		"topic": "locations"
+	},
+	"server_cmd_SetServerVoteReward": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set server vote reward {default/random/list/item/entity}\n {#}set server vote reward random quantity {number} quality {number}",
+		"topic": "server"
+	},
+	"bot_cmd_ClearBotsWhitelist": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}clear whitelist",
+		"topic": "bot"
+	},
+	"waypoints_cmd_ListWaypoints": {
+		"accessLevel": 10,
+		"ingameOnly": false,
+		"command": " {#}waypoints {player name} (list a player's waypoints)\n {#}waypoints range {distance} (list all waypoints within range of your position)\n {#}waypoints near {player or location} range {distance} (list all waypoints within range of a player or location)",
+		"topic": "waypoints"
+	},
+	"locations_cmd_SetTP": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}set tp {optional location}",
+		"topic": "locations"
+	},
+	"locations_cmd_ToggleLocationEnabled": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}location enable/disable {name}",
+		"topic": "locations"
+	},
+	"base_cmd_SetBaseSize": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set base {base number} size {number} player {player name}",
+		"topic": "base"
+	},
+	"admin_cmd_ToggleLevelHackAlert": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable level hack alert",
+		"topic": "admin"
+	},
+	"admin_cmd_ToggleIncludeExcludeAdmins": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}include/exclude admins",
+		"topic": "admin"
+	},
+	"bot_cmd_ToggleCheckLevelHack": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable level hack check",
+		"topic": "bot"
+	},
+	"server_cmd_ToggleIdleKickAnytime": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}allow/disallow idling (allowed is default)",
+		"topic": "server"
+	},
+	"resets_cmd_ToggleResetZone": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}add/remove reset\n {#}add/remove reset x-coord z-coord",
+		"topic": "resets"
+	},
+	"server_cmd_SetPVPCooldown": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set pvp cooldown {seconds}",
+		"topic": "server"
+	},
+	"teleports_cmd_SetTeleportDelayTimer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set teleport delay {number}",
+		"topic": "teleports"
+	},
+	"fun_cmd_ResetGimme": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}gimme reset",
+		"topic": "fun"
+	},
+	"fun_cmd_ToggleGimmeZombies": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}gimme zombies\n {#}gimme no zombies",
+		"topic": "fun"
+	},
+	"botman_cmd_ResetRegionsNow": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}reset regions now",
+		"topic": "botman"
+	},
+	"friends_cmd_AddFriend": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}friend {player}",
+		"topic": "friends"
+	},
+	"fun_cmd_ToggleGimmeGame": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}gimme on/off",
+		"topic": "fun"
+	},
+	"admin_cmd_PootaterPlayer": {
+		"accessLevel": 5,
+		"ingameOnly": false,
+		"command": " {#}poop {player name}",
+		"topic": "admin"
+	},
+	"shop_cmd_SetShopTradingHours": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set shop open/close {0 - 23}",
+		"topic": "shop"
+	},
+	"admin_cmd_ToggleFreezeThawPlayer": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}freeze/unfreeze {player name}",
+		"topic": "admin"
+	},
+	"server_cmd_SetServerIP": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}set server ip {IP of your 7 Days to Die server}",
+		"topic": "server"
+	},
+	"bot_cmd_NoReset": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}no reset",
+		"topic": "bot"
+	},
+	"base_cmd_ProtectBase": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}protect\n {#}protect {number or name of base}\n {#}protect player {player id or name} (admins only)\n {#}protect player {player id or name} base {number or name of base} (admins only)",
+		"topic": "base"
+	},
+	"server_cmd_ToggleFamilySteamKeys": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}allow/disallow family (allowed by default)",
+		"topic": "server"
+	},
+	"friends_cmd_UnfriendMe": {
+		"accessLevel": 3,
+		"ingameOnly": true,
+		"command": " {#}unfriendme {player}\n {#}unfriendme everyone",
+		"topic": "friends"
+	},
+	"server_cmd_ToggleErrorScan": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable error scan (disabled by default)",
+		"topic": "server"
+	},
+	"waypoints_cmd_ToggleAllowLinkedWaypoints": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable linked waypoints (default enabled)",
+		"topic": "waypoints"
+	},
+	"bot_cmd_SetCommandPrefix": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set command prefix / (or no symbol or any symbol except \\ )",
+		"topic": "bot"
+	},
+	"locations_cmd_SetLocationOpenHour": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}location {name} open {0-23}",
+		"topic": "locations"
+	},
+	"misc_cmd_BailOutPrisoner": {
+		"accessLevel": 2,
+		"ingameOnly": true,
+		"command": " {#}bail {player} {#}bail {player} pay {amount}",
+		"topic": "misc"
+	},
+	"admin_cmd_ToggleIgnorePlayer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}ignore/include player {player name}",
+		"topic": "admin"
+	},
+	"admin_cmd_ReleasePlayer": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}release {player name}\n {#}just release {player name}",
+		"topic": "admin"
+	},
+	"bot_cmd_ToggleBotUpdates": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable updates (disabled by default)",
+		"topic": "bot"
+	},
+	"botman_cmd_SetMinClanLevel": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set min clan level {player level}",
+		"topic": "botman"
+	},
+	"botman_cmd_LoadPrefab": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}load prefab {name}\n {#}load prefab {name} at {x} {y} {z} face {0-3}\n {#}load prefab {name} here\nEverything after the prefab name is optional and if not given, the stored coords and rotation will be used.",
+		"topic": "botman"
+	},
+	"tracker_cmd_DeleteBase": {
+		"accessLevel": 3,
+		"ingameOnly": true,
+		"command": " {#}killbase",
+		"topic": "tracker"
+	},
+	"teleports_cmd_ToggleVisitInPVP": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable (or {#}disable) pvp visit (default disabled)",
+		"topic": "teleports"
+	},
+	"botman_cmd_SetClearHorde": {
+		"accessLevel": 3,
+		"ingameOnly": true,
+		"command": " {#}set/clear horde",
+		"topic": "botman"
+	},
+	"bot_cmd_ToggleBotChatColours": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable bot colours (default enabled)",
+		"topic": "bot"
+	},
+	"admin_cmd_ToggleBlockPlayer": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}block/unblock player {player name}",
+		"topic": "admin"
+	},
+	"fun_cmd_ToggleShowHideGimmeMessages": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}gimme gimme\n {#}gimme peace",
+		"topic": "fun"
+	},
+	"base_cmd_ToggleBaseTeleport": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable base (or home) teleport",
+		"topic": "base"
+	},
+	"teleports_cmd_ToggleP2PTeleporting": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable p2p",
+		"topic": "teleports"
+	},
+	"admin_cmd_GiveAdminSupplies": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}supplies",
+		"topic": "admin"
+	},
+	"admin_cmd_AddRemoveAdmin": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}admin add {player or steam or game ID} level {0-2}\n {#}admin remove {player or steam or game ID}",
+		"topic": "admin"
+	},
+	"base_cmd_ToggleBaseKeepout": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}base {number} allow friends\n {#}base {number} no friends",
+		"topic": "base"
+	},
+	"server_cmd_ToggleBanVACBannedPlayers": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable vac (disable is the default)",
+		"topic": "server"
+	},
+	"bot_cmd_ToggleBeQuietBot": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set bot chatty/quiet",
+		"topic": "bot"
+	},
+	"botman_cmd_ToggleClans": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable clans",
+		"topic": "botman"
+	},
+	"server_cmd_ScheduleServerReboot": {
+		"accessLevel": 6,
+		"ingameOnly": false,
+		"command": " {#}reboot\n {#}reboot {n} minute (or hour) (optional: forced)\n {#}reboot now",
+		"topic": "server"
+	},
+	"admin_cmd_ToggleAirdropAlert": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable airdrop alert",
+		"topic": "admin"
+	},
+	"admin_cmd_RemovePlayerClaims": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}remove claims {player name}",
+		"topic": "admin"
+	},
+	"info_cmd_BotInfo": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}bot info",
+		"topic": "info"
+	},
+	"locations_cmd_SetLocationCloseHour": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}location {name} close {0-23}",
+		"topic": "locations"
+	},
+	"admin_cmd_TimeoutPlayer": {
+		"accessLevel": 90,
+		"ingameOnly": false,
+		"command": " {#}timeout {player name}",
+		"topic": "admin"
+	},
+	"shop_cmd_Cash": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}cash or {#}wallet or {#}bank",
+		"topic": "shop"
+	},
+	"admin_cmd_GiveEveryoneItem": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}give everyone {item} {amount} {quality}",
+		"topic": "admin"
+	},
+	"teleports_cmd_SetP2PMinimumAccess": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set p2p access {access level}",
+		"topic": "teleports"
+	},
+	"waypoints_cmd_UseWaypoint": {
+		"accessLevel": 10,
+		"ingameOnly": true,
+		"command": " {#}wp or {#}wp1 or {#}{your name}",
+		"topic": "waypoints"
+	},
+	"admin_cmd_RestoreAdmin": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}restore admin",
+		"topic": "admin"
+	},
+	"bot_cmd_RestoreBackup": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}restore backup {optional backup number} {optional words: bases, cash, donors, colors, locations, waypoints, friends, villagers, teleports, hotspots, resets, players, shop, gimme, zombies}\n {#}restore backup {optional backup number} {optional words as above} player {name or steam or player id} (note: player {name} must be specified last)",
+		"topic": "bot"
+	},
+	"bot_cmd_SetBotNameColour": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set bot name colour {hex colour code}",
+		"topic": "bot"
+	},
+	"botman_cmd_SavePrefab": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}save {name}",
+		"topic": "botman"
+	},
+	"admin_cmd_ArrestPlayer": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}arrest {player name}\n {#}arrest {player name} reason {why arrested}",
+		"topic": "admin"
+	},
+	"bot_cmd_ResetBot": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}reset bot\n {#}reset bot keep money",
+		"topic": "bot"
+	},
+	"teleports_cmd_PackTeleport": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}pack\n {#}revive",
+		"topic": "teleports"
+	},
+	"waypoints_cmd_ClearWaypoint": {
+		"accessLevel": 10,
+		"ingameOnly": false,
+		"command": " {#}clear wp {name}",
+		"topic": "waypoints"
+	},
+	"base_cmd_TestBase": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}test base {number or name} (test a specific base)",
+		"topic": "base"
+	},
+	"waypoints_cmd_SetWaypointCreateCost": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}set waypoint create cost {number}",
+		"topic": "waypoints"
+	},
+	"admin_cmd_DownloadHelp": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}download help",
+		"topic": "admin"
+	},
+	"tracker_cmd_Stop": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}stop",
+		"topic": "tracker"
+	},
+	"botman_cmd_ToggleAnticheat": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable anticheat",
+		"topic": "botman"
+	},
+	"locations_cmd_ToggleShowLocationEnterExitMessage": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}show/hide locations",
+		"topic": "locations"
+	},
+	"admin_cmd_ListOfflinePlayersNearby": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}offline players nearby\n {#}offline players nearby range {number}",
+		"topic": "admin"
+	},
+	"info_cmd_ShowServerTime": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}server date",
+		"topic": "info"
+	},
+	"fun_cmd_FixGimme": {
+		"accessLevel": 5,
+		"ingameOnly": false,
+		"command": " {#}fix gimme",
+		"topic": "fun"
+	},
+	"server_cmd_ToggleHardcoreMode": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable hardcore mode",
+		"topic": "server"
+	},
+	"bot_cmd_SetBotChatColour": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set chat colour {hex code}",
+		"topic": "bot"
+	},
+	"botman_cmd_DeleteSave": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}delete save {number taken from {#}list saves}",
+		"topic": "botman"
+	},
+	"admin_cmd_ResetPlayer": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}reset player record {player name}",
+		"topic": "admin"
+	},
+	"bot_cmd_BackupBot": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}backup bot {optional name}",
+		"topic": "bot"
+	},
+	"server_cmd_SetWebsite": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set website {your website or steam group}",
+		"topic": "server"
+	},
+	"server_cmd_TogglePVPRulesByCompass": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}northeast pve/pvp\n {#}northeast pve/pvp\n {#}northwest pve/pvp\n {#}southeast pve/pvp\n {#}southwest pve/pvp\n {#}north pve/pvp\n {#}south pve/pvp\n {#}east pve/pvp\n {#}west pve/pvp",
+		"topic": "server"
+	},
+	"tracker_cmd_StopTracking": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}stop tracking",
+		"topic": "tracker"
+	},
+	"villages_cmd_RemoveVillageProtection": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}unprotect village {village name}",
+		"topic": "villages"
+	},
+	"teleports_cmd_TogglePlayerTeleportAnnouncements": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}show/hide teleports",
+		"topic": "teleports"
+	},
+	"waypoints_cmd_SetWaypointCooldown": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set waypoint cooldown {number} (seconds)",
+		"topic": "waypoints"
+	},
+	"waypoints_cmd_SetWaypoint": {
+		"accessLevel": 90,
+		"ingameOnly": false,
+		"command": " {#}set wp {waypoint name}",
+		"topic": "waypoints"
+	},
+	"admin_cmd_SetWatchPlayerTimer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set watch timer {number in seconds}\n {#}set watch player {name} timer {number in seconds}",
+		"topic": "admin"
+	},
+	"botman_cmd_DigFill": {
+		"accessLevel": 3,
+		"ingameOnly": true,
+		"command": " {#}dig (or fill) {optional number} (default 5)",
+		"topic": "botman"
+	},
+	"base_cmd_TogglePVPProtection": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}enable/disable pvp protect",
+		"topic": "base"
+	},
+	"server_cmd_SetRollingAnnouncementTimer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set rolling delay {minutes}",
+		"topic": "server"
+	},
+	"bot_cmd_SetUpdateBranch": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}set update branch",
+		"topic": "bot"
+	},
+	"locations_cmd_ToggleLocationIsLobby": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}location lobby/not lobby {name}",
+		"topic": "locations"
+	},
+	"botman_cmd_AddRemoveTraderProtection": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}trader protect/unprotect/remove {named area}\n {#}trader add/trader del {named area}\n {#}trader protect/unprotect north/south/east/west/ne/nw/se/sw length/long {number} width/wide {number}",
+		"topic": "botman"
+	},
+	"botman_cmd_SetResetDelay": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set reset delay {days}",
+		"topic": "botman"
+	},
+	"admin_cmd_ListBlacklist": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}list blacklist",
+		"topic": "admin"
+	},
+	"bot_cmd_GuessPassword": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}password {some password or phrase}",
+		"topic": "bot"
+	},
+	"info_cmd_ShowRules": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}rules",
+		"topic": "info"
+	},
+	"villages_cmd_AddVillageMember": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}add member {player name} village {village}",
+		"topic": "villages"
+	},
+	"teleports_cmd_SetTeleportOwner": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}tele {name} owner {player name}",
+		"topic": "teleports"
+	},
+	"info_cmd_ServerInfo": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}server or {#}info",
+		"topic": "info"
+	},
+	"server_cmd_SetIRCChannels": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set irc main (or alerts or watch) {channel name without a # sign}",
+		"topic": "server"
+	},
+	"teleports_cmd_SetTeleportStartSize": {
+		"accessLevel": 2,
+		"ingameOnly": true,
+		"command": " {#}tele {name} start size {radius in blocks}",
+		"topic": "teleports"
+	},
+	"tracker_cmd_SetSpeed": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}speed {number}",
+		"topic": "tracker"
+	},
+	"admin_cmd_ToggleFriendlyPVPResponse": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}ignore/punish friendly pvp",
+		"topic": "admin"
+	},
+	"shop_cmd_SetLotteryTicketPrice": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set lottery ticket price {number}",
+		"topic": "shop"
+	},
+	"locations_cmd_ToggleLocationP2P": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}location p2p enable/disable {name} (default is enabled)",
+		"topic": "locations"
+	},
+	"misc_cmd_RemoveCustomCommand": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}remove command {command}",
+		"topic": "misc"
+	},
+	"admin_cmd_SetReturnCooldown": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set return cooldown {seconds} (default 0)",
+		"topic": "admin"
+	},
+	"misc_cmd_ListCustomCommands": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}custom commands",
+		"topic": "misc"
+	},
+	"groups_cmd_GroupSettings": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}group settings",
+		"topic": "groups"
+	},
+	"teleports_cmd_SetPackCost": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set pack cost {number}",
+		"topic": "teleports"
+	},
+	"server_cmd_SetServerType": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set server pve (or pvp, creative or contest)",
+		"topic": "server"
+	},
+	"tracker_cmd_VisitPreviousBase": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}pb",
+		"topic": "tracker"
+	},
+	"server_cmd_SetServerGroup": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set server group {group name} (one word)",
+		"topic": "server"
+	},
+	"server_cmd_ToggleWatchAlerts": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}2disable/enable watch alerts",
+		"topic": "server"
+	},
+	"base_cmd_SetBaseCost": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set base cost {number}",
+		"topic": "base"
+	},
+	"misc_cmd_Bookmark": {
+		"accessLevel": 90,
+		"ingameOnly": true,
+		"command": " {#}bookmark {message}",
+		"topic": "misc"
+	},
+	"fun_cmd_SetGimmeCooldown": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}gimme raincheck {seconds}",
+		"topic": "fun"
+	},
+	"admin_cmd_SetReservedSlotTimelimit": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set reserved slot timelimit {minutes} (default 0)",
+		"topic": "admin"
+	},
+	"botman_cmd_MakeMaze": {
+		"accessLevel": 0,
+		"ingameOnly": true,
+		"command": " {#}make maze (default maze 20 x 20)\n {#}make maze wall {block name} fill {air block} width {number} length {number} height {number} x {x coord} y {y coord} z {z coord}\nThe bot also accepts wide, long, and tall instead of width, length, and height.\nThe maze will generate with no roof.  If you want a roof add the word roof.\nIf you want a multi-level maze add levels {number}. Note: it will include a floor.\nYou will need to cut holes or make rooms yourself.",
+		"topic": "botman"
+	},
+	"admin_cmd_GivePlayerItem": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}give player {joe} item {item} {amount} {quality}\n {#}give player {joe} item {item} {amount} {quality} message {say something here}",
+		"topic": "admin"
+	},
+	"shop_cmd_FixShopQuick": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}quick fix shop",
+		"topic": "shop"
+	},
+	"bot_cmd_SetBlacklistResponse": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}blacklist action ban (or exile or 'nothing')",
+		"topic": "bot"
+	},
+	"bot_cmd_ToggleHideUnknownCommand": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}show/hide unknown command",
+		"topic": "bot"
+	},
+	"server_cmd_SetPrisonTimer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set prison timer {number} (in minutes)",
+		"topic": "server"
+	},
+	"info_cmd_SeenPlayer": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}seen {player name}",
+		"topic": "info"
+	},
+	"tracker_cmd_CheckBases": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}check bases",
+		"topic": "tracker"
+	},
+	"botman_cmd_SetPlayerName": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set player {steam id/name/entity id} name {new name}\n {#}clear player {steam id/name/entity id} name",
+		"topic": "botman"
+	},
+	"admin_cmd_PlayerIsNotNew": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}player {player name} is not new",
+		"topic": "admin"
+	},
+	"teleports_cmd_SetP2PCooldownTimer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set p2p cooldown {number in seconds}",
+		"topic": "teleports"
+	},
+	"shop_cmd_SetLotteryMultiplier": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set lottery multiplier {number}",
+		"topic": "shop"
+	},
+	"server_cmd_SetNewPlayerTimer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set new player timer {number} (in minutes)\n {#}new player timer (to see it)",
+		"topic": "server"
+	},
+	"waypoints_cmd_SetMaxWaypoints": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set max waypoints {number} (server wide)\n {#}set max waypoints {player name} number {number} (for a specific player)\n {#}set max waypoints donors {number} (for donors)",
+		"topic": "waypoints"
+	},
+	"bot_cmd_ListChatColours": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}list chat colors",
+		"topic": "bot"
+	},
+	"base_cmd_DeleteBase": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}delbase {number or name of base}\n {#}delbase player {player name} base {number or name of base} (for admins only) or\n {#}delbase player {player name} (for admins only)\n",
+		"topic": "base"
+	},
+	"server_cmd_SetServerAPIKey": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set server api {api key from 7daystodie-servers.com}",
+		"topic": "server"
+	},
+	"admin_cmd_SetMaxTrackingDays": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}max tracking days {days}",
+		"topic": "admin"
+	},
+	"base_cmd_SetMaxProtectedBases": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set max protected bases {number}",
+		"topic": "base"
+	},
+	"locations_cmd_MoveLocation": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}location move {name}",
+		"topic": "locations"
+	},
+	"waypoints_cmd_LinkWaypoints": {
+		"accessLevel": 10,
+		"ingameOnly": true,
+		"command": " {#}link wp {name of wp1} to {name of wp2}",
+		"topic": "waypoints"
+	},
+	"waypoints_cmd_UnlinkWaypoints": {
+		"accessLevel": 10,
+		"ingameOnly": true,
+		"command": " {#}unlink wp {name of waypoint}",
+		"topic": "waypoints"
+	},
+	"villages_cmd_RemoveVillageMember": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}remove member {player name} village {village}",
+		"topic": "villages"
+	},
+	"waypoints_cmd_CloseWaypoint": {
+		"accessLevel": 10,
+		"ingameOnly": false,
+		"command": " {#}close wp {waypoint name}",
+		"topic": "waypoints"
+	},
+	"locations_cmd_SetLocationAccess": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}location {name} access {minimum access level}",
+		"topic": "locations"
+	},
+	"admin_cmd_ListBasesNearby": {
+		"accessLevel": 90,
+		"ingameOnly": false,
+		"command": " {#}bases/homes\n {#}bases/homes range {number}\n {#}bases/homes near {player name} range {number}",
+		"topic": "admin"
+	},
+	"hotspots_cmd_CreateHotspot": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}hotspot {message}",
+		"topic": "hotspots"
+	},
+	"admin_cmd_LeavePlayerClaims": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}leave claims {player name}",
+		"topic": "admin"
+	},
+	"botman_cmd_SetMaxClanPlayers": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set max clan players {number of players}",
+		"topic": "botman"
+	},
+	"locations_cmd_SetLocationCost": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}location {name} cost {number}",
+		"topic": "locations"
+	},
+	"admin_cmd_AddRemoveDonor": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}add donor {player name} level {0 to 7} expires {number} week or month or year\n {#}remove donor {player name}",
+		"topic": "admin"
+	},
+	"locations_cmd_ListLocations": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}locations",
+		"topic": "locations"
+	},
+	"botman_cmd_SetMapColour": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set map colour FF0000 (red is the default colour)",
+		"topic": "botman"
+	},
+	"tracker_cmd_GotoStart": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}goto start",
+		"topic": "tracker"
+	},
+	"admin_cmd_SetDropMiningWarningThreshold": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}set drop mining warning {number of blocks} (default is 99)",
+		"topic": "admin"
+	},
+	"admin_cmd_ToggleWatchPlayer": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}watch {player name}\n {#}watch new players\n {#}stop watching {player name}\n {#}stop watching everyone",
+		"topic": "admin"
+	},
+	"groups_cmd_GroupAddRemovePlayer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}group {number or name} add {name}\n {#}group {number or name} remove {name}",
+		"topic": "groups"
+	},
+	"shop_cmd_SetShopResetDays": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set shop reset days {number}",
+		"topic": "shop"
+	},
+	"botman_cmd_ToggleMapping": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}enable/disable mapping",
+		"topic": "botman"
+	},
+	"friends_cmd_ListFriends": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}friends {player} (only admins can specify a player)",
+		"topic": "friends"
+	},
+	"locations_cmd_SetLocationSize": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}location {name} size {number}",
+		"topic": "locations"
+	},
+	"waypoints_cmd_ClearAllWaypoints": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}clear all waypoints {optional player name}",
+		"topic": "waypoints"
+	},
+	"admin_cmd_ClearWhitelist": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}clear country whitelist",
+		"topic": "admin"
+	},
+	"shop_cmd_SetClearShopLocation": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set/clear shop location {location name (for set only)}",
+		"topic": "shop"
+	},
+	"server_cmd_SetMaxPing": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set (or clear) max ping {number}",
+		"topic": "server"
+	},
+	"locations_cmd_LocationInfo": {
+		"accessLevel": 90,
+		"ingameOnly": true,
+		"command": " {#}location {name}",
+		"topic": "locations"
+	},
+	"locations_cmd_SetLocationOwner": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}location {name} owner {player name}",
+		"topic": "locations"
+	},
+	"server_cmd_JoinGameServer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}join server {ip} port {telnet port} pass {telnet password}",
+		"topic": "server"
+	},
+	"botman_cmd_CancelMaze": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}stop/cancel maze",
+		"topic": "botman"
+	},
+	"server_cmd_SetMaxAnimals": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set max animals {number}",
+		"topic": "server"
+	},
+	"locations_cmd_RenameLocation": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}location {old name} rename {new name}",
+		"topic": "locations"
+	},
+	"shop_cmd_SetLotteryPrize": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set lottery prize {number}",
+		"topic": "shop"
+	},
+	"bot_cmd_QuickResetBot": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}quick reset bot",
+		"topic": "bot"
+	},
+	"admin_cmd_AddRemoveBadWord": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}add/remove bad word {word or phrase} (max 100 characters)\n {#}add/remove bad word {word or phrase} cost {amount of money} response {nothing or mute or ban or timeout} cooldown {number of seconds before un-muting etc}",
+		"topic": "admin"
+	},
+	"bot_cmd_ListBackups": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}list backups",
+		"topic": "bot"
+	},
+	"botman_cmd_ResetPrefab": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}reset prefab {player name}",
+		"topic": "botman"
+	},
+	"hotspots_cmd_DeleteHotspots": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}delete hotspots {player name}",
+		"topic": "hotspots"
+	},
+	"server_cmd_SetIRCServer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set irc server {IP or URL and optional port}",
+		"topic": "server"
+	},
+	"shop_cmd_PayPlayer": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}pay {player name} {amount}",
+		"topic": "shop"
+	},
+	"admin_cmd_CoolPlayer": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}cool {player name}",
+		"topic": "admin"
+	},
+	"server_cmd_SetIRCNick": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set irc nick {bot name}",
+		"topic": "server"
+	},
+	"admin_cmd_BurnPlayer": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}burn {player name}",
+		"topic": "admin"
+	},
+	"bot_cmd_SetTelnetLogKeepDays": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set max log days {number}",
+		"topic": "bot"
+	},
+	"tracker_cmd_GotoEnd": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}goto end",
+		"topic": "tracker"
+	},
+	"tracker_cmd_GoBack": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}go back",
+		"topic": "tracker"
+	},
+	"admin_cmd_ClearBlacklist": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}clear country blacklist",
+		"topic": "admin"
+	},
+	"botman_cmd_ResetPlayer": {
+		"accessLevel": 2,
+		"ingameOnly": false,
+		"command": " {#}reset player profile {player name}",
+		"topic": "botman"
+	},
+	"server_cmd_SetReservedSlots": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set reserved slots {number of slots}",
+		"topic": "server"
+	},
+	"locations_cmd_SetLocationMinigame": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}location {name} minigame {game type}",
+		"topic": "locations"
+	},
+	"base_cmd_SetDefaultBaseSize": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set default base size {number in metres or blocks}",
+		"topic": "base"
+	},
+	"fun_cmd_PlaceBounty": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}place bounty {player name} {cash}",
+		"topic": "fun"
+	},
+	"admin_cmd_SetDeathCost": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set death cost {cash} (default is 0)",
+		"topic": "admin"
+	},
+	"locations_cmd_SetClearLocationCategory": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}location {name} category {category name}\n {#}location {name} clear category",
+		"topic": "locations"
+	},
+	"waypoints_cmd_SetWaypointCost": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}set waypoint cost {number}",
+		"topic": "waypoints"
+	},
+	"admin_cmd_ReleasePlayerHere": {
+		"accessLevel": 3,
+		"ingameOnly": true,
+		"command": " {#}release here {prisoner}",
+		"topic": "admin"
+	},
+	"bot_cmd_SetBotAlertColour": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set alert colour {hex code}",
+		"topic": "bot"
+	},
+	"admin_cmd_KickPlayer": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}kick {Player name|Steam ID|Game ID} reason {optional reason}",
+		"topic": "admin"
+	},
+	"admin_cmd_SendPlayerToPlayer": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}send {player} to {other player}",
+		"topic": "admin"
+	},
+	"base_cmd_SetBaseForPlayer": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}setbase/sethome {player name}",
+		"topic": "base"
+	},
+	"admin_cmd_ListBadItems": {
+		"accessLevel": 99,
+		"ingameOnly": false,
+		"command": " {#}bad items",
+		"topic": "admin"
+	},
+	"tracker_cmd_ResumeTracking": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}go",
+		"topic": "tracker"
+	},
+	"shop_cmd_SetZombieReward": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set zombie reward {WUHANCOINs}",
+		"topic": "shop"
+	},
+	"base_cmd_SetBaseCooldownTimer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set base cooldown {number in seconds} (default is 2400 or 40 minutes)",
+		"topic": "base"
+	},
+	"shop_cmd_Lottery": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}lotto or {#}lottery or {#}tickets",
+		"topic": "shop"
+	},
+	"bot_cmd_SetAPILogPollingInterval": {
+		"accessLevel": 0,
+		"ingameOnly": false,
+		"command": " {#}set api log read {interval in seconds} (default 3 seconds)",
+		"topic": "bot"
+	},
+	"locations_cmd_SetLocationCoolDownTimer": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}set location {name} cooldown {number in seconds}",
+		"topic": "locations"
+	},
+	"locations_cmd_LocationClearSpawnPoints": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}location {name} clear",
+		"topic": "locations"
+	},
+	"admin_cmd_ReadClaims": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}read claims",
+		"topic": "admin"
+	},
+	"admin_cmd_FreePlayer": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}free {player name}",
+		"topic": "admin"
+	},
+	"teleports_cmd_ReturnTeleport": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}return",
+		"topic": "teleports"
+	},
+	"teleports_cmd_ListTeleports": {
+		"accessLevel": 2,
+		"ingameOnly": true,
+		"command": " {#}teleports",
+		"topic": "teleports"
+	},
+	"info_cmd_WhoIsNearPlayer": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}who {optional number distance}",
+		"topic": "info"
+	},
+	"server_cmd_SetWebPanelPort": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set web panel port {port of server's control panel/web panel}\nor {#}set api port {number}",
+		"topic": "server"
+	},
+	"admin_cmd_ListPrisoners": {
+		"accessLevel": 90,
+		"ingameOnly": false,
+		"command": " {#}prisoners",
+		"topic": "admin"
+	},
+	"admin_cmd_BlockChatCommandsForPlayer": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}block/unblock {name}",
+		"topic": "admin"
+	},
+	"server_cmd_TestVoteReward": {
+		"accessLevel": 1,
+		"ingameOnly": true,
+		"command": " {#}test vote reward",
+		"topic": "server"
+	},
+	"admin_cmd_ResetHelp": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}reset help",
+		"topic": "admin"
+	},
+	"tracker_cmd_TrackPlayer": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}track {player name} session {number} (session is optional and defaults to the latest)\n {#}track {player name} session {number} range {distance}\n {#}next (track the next session)\n {#}last (track the previous session)",
+		"topic": "tracker"
+	},
+	"admin_cmd_BanUnbanPlayer": {
+		"accessLevel": 3,
+		"ingameOnly": false,
+		"command": " {#}ban {player name} (ban for 10 years with the reason 'banned')\n {#}ban {player name} reason {reason for ban} (ban for 10 years with the reason you provided)\n {#}ban {player name} time {number} hour or day or month or year reason {reason for ban}\n {#}unban {player name} (This will also remove global bans issued by this bot against this player.  It will not remove global bans issued elsewhere.\n {#}gblban {player name} reason {reason for ban}",
+		"topic": "admin"
+	},
+	"locations_cmd_ToggleLocationIsRound": {
+		"accessLevel": 4,
+		"ingameOnly": false,
+		"command": " {#}location round/circle/square/rectangle {name}",
+		"topic": "locations"
+	},
+	"resets_cmd_RedoResetZones": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}redo reset zones",
+		"topic": "resets"
+	},
+	"villages_cmd_AddVillage": {
+		"accessLevel": 2,
+		"ingameOnly": true,
+		"command": " {#}add village {village name}",
+		"topic": "villages"
+	},
+	"misc_cmd_ClaimVote": {
+		"accessLevel": 99,
+		"ingameOnly": true,
+		"command": " {#}claim vote",
+		"topic": "misc"
+	},
+	"waypoints_cmd_OpenWaypoint": {
+		"accessLevel": 10,
+		"ingameOnly": true,
+		"command": " {#}open wp {waypoint name}",
+		"topic": "waypoints"
+	},
+	"server_cmd_SetMapSize": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set map size {number}",
+		"topic": "server"
+	},
+	"locations_cmd_LocationSetReset": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}location set reset {name}",
+		"topic": "locations"
+	},
+	"teleports_cmd_CreateTeleportEnd": {
+		"accessLevel": 4,
+		"ingameOnly": true,
+		"command": " {#}tele {name} end",
+		"topic": "teleports"
+	},
+	"admin_cmd_ListStaff": {
+		"accessLevel": 10,
+		"ingameOnly": false,
+		"command": " {#}list staff/admins",
+		"topic": "admin"
+	},
+	"groups_cmd_ListGroupMembers": {
+		"accessLevel": 90,
+		"ingameOnly": false,
+		"command": " {#}list group members {group number or name}",
+		"topic": "groups"
+	},
+	"base_cmd_SetBaseDeadzone": {
+		"accessLevel": 1,
+		"ingameOnly": false,
+		"command": " {#}set base deadzone {distance}",
+		"topic": "base"
+	}
+}
